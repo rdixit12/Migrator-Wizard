@@ -1,0 +1,95 @@
+ If you are looking for how to import PST to Office 365 then your search ends here. When the discussion about cloud platforms starts, the first choice is Office 365. Due to its rich features, it became so popular. But when you want to go with Office 365 with your old data. Then you need to import the PST to Office 365. There can be multiple benefits to Importing the PST file into Office 365. Let’s find some major benefits.
+
+Benefits to Import PST File to Office 365 Mailbox?
+You can collaborate with others to work on similar tasks.
+PST files will be more secure in Office 365 because of its advanced security features.
+There the regular updates in Office 365 to improve data security.
+Office 365 also offers the different features that are used to scale the business.
+They offer multiple business plans, so you can choose the best one that fulfills your needs. As per the requirement, you can also upgrade the plans.
+In any issue in the PST files, then you can get the help from Office 365 support team. Multiple options are available for support such as chat, phone, and email.
+
+How to Import PST to Office 365?
+After analyzing the reasons to perform importing PST to Office 365. Now, it's time to look for different methods to import PST to Office 365 shared mailbox. There are several methods that can able to perform the importing.
+
+Import the PST File using Network Upload
+Import the PST Files with the help Of Outlook
+Drive Shipping Method to Import PST Files into Office 365.
+Automated Tool to Import the PST File to Office 365.
+
+
+Method 1. Network Upload to Import PST File to Office 365 Mailbox 
+Microsoft offers an inbuilt option to import the PST to Office 365. The steps that must be taken are listed below.
+Login to the Compliance.microsoft.com.
+Choose the Data Lifecycle Management > Microsoft 365 > Import.
+Open the Import tab and click on + New import job.
+Choose Upload your data from the wizard.
+Now copy the SAS URL and Download the Azure AzCopy tool on the system.
+Open the command prompt on the local system.
+Run the command 
+azcopy.exe copy "<Source location of PST files>" "<SAS URL>"
+Verify all of the files are uploaded successfully using the Azure Storage Explorer.
+Now, it is time to create a CSV file, which specifies the location of the mailboxes where they are going to be saved.
+In the Import Data wizard, select the options “ I’m done uploading my files” and “I have access to the mapping file”.
+Upload the selected CSV file by clicking on +Select mapping file and Validate.
+Now click on Save and Close.
+ After validating and Save the Import Job Microsoft analyzes the data and gives you the data age. So that you can select or exclude that before importing.
+Click Import data and the status becomes visible on the Import PST files page.
+
+Limitation of Import PST to Office 365 using Network upload
+It is not applicable to large data. It takes too much time to import large data.
+It is the most complex process even the administrators are avoiding it.
+You need to manage sufficient internet bandwidth while importing the data. If there is an issue during the importing then the data may be corrupt or lost permanently.
+Importing multiple accounts using these methods is not an efficient approach, it can cause confusion for importing the data.
+It is limited to certain countries.
+There is a limit of size for PST files which is 2 GB. If the file is greater than 2 GB, then you need to split it.
+
+
+
+Method 2. Import PST to Office 365 using Office Outlook.
+Configure your Office 365 account in Outlook.
+Now click on the File and choose Open&Export.
+Then, hit the Import/Export option and select the Import from another program of file.
+Click on Outlook Data File (.pst).
+Browse the location for the resulting file and click on Finish.
+
+Method 3. Drive Shipping to Import PST File to Office 365 Mailbox
+Prepare the PST file with the appropriate names and hierarchy.
+Copy the PST file that needs to be imported to the hard drive. The file should be virus-free.
+Use BitLocker, to encrypt the data of the file as per the Microsoft Guidelines.
+Create a dropshipping request to Microsoft. Go to Microsoft 365 admin center and go to Import services >> Data Migration and create a drop shopping request.
+Now, pack the hard drive properly with the required documents. Then, choose the suitable shipping service to send the hard drive to the Microsoft data center.
+You can track the shipping progress by the shipping company. When the hard drive reaches the Microsoft data center and when the import process ends, you will get a notification.
+Finally, you can verify your data, that has been migrated to Office 365.
+
+Limitations of Drive Shipping
+It is a very time-consuming task. Shipping of the data to the Datacenter takes a lot of time. There can be a queue for importing the PST files in the data center which makes your importing of data late.
+Data can be lost or damaged before reaching the data center.
+It is costly, Microsoft takes 2$ per GB for the process of importing.
+It is not suitable for multiple imports because of its requirements to transfer data to a hard drive, and then manage the shipping.
+
+
+Method 4. Import All the Data of PST File to Office 365 Efficiently.
+After analyzing the limitations of all the manual methods to import PST to Office 365. There is the Automated Method which uses the Import PST to Office 365 Tool. This tool is more reliable and secure. It can transfer multiple Outlook data easily. You can easily import emails, contacts, calendars, and tasks without any errors. This tool is compatible with all of the Microsoft Outlook versions. All the data either attachments or metadata are imported successfully. It can easily import PST to Office 365 archive files also
+
+Step By Step Execution of Automated Tool 
+Download and Install the tool. Select the Outlook as Source and Office 365 as the destination.
+Select the workload from emails, contacts, and calendar tasks for import.
+Apply the Date Filter to filter out the relevant data only.
+Enter the location where the PST file is located on the system. Then validate and Next.
+Enter the destination credentials such as Admin Email and Application. Click on Validate and Next.
+Select the users from Fetch users Import users, and Download template.
+Click on Start Import.
+
+Final Words
+There can be multiple scenarios where you need to import PST to Office 365. All the manual and automated solutions are discussed in this blog. Due to some limitations of the manual methods they are recommended to use. Automated solutions are recommended because of their advanced features.
+
+ 
+
+For More Resources
+What are the Several Benefits of Office 365?
+What is the differentiation between OneDrive and Google Drive?
+How to move the domain between Office 365 Tenants?
+How to move the Office 365 mailbox to another user?
+What is the Difference Between OneDrive and OneDrive for Business?
+What is the difference between Microsoft E3 and  E5 plans?
+
